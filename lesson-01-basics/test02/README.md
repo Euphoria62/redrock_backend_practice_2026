@@ -23,8 +23,7 @@
 int add(int a, int b) { return a + b; }   // C：返回类型在前，参数是「类型 名字」
 ```
 
-```go
-func add(a, b int) int { return a + b }   // Go：func 开头，返回类型在后，参数是「名字 类型」
+```gounc add(a, b int) int { return a + b }   // Go：func 开头，返回类型在后，参数是「名字 类型」
 ```
 
 - 变量：`var sum int = 0`，函数内可以简写成 `sum := 0`。
