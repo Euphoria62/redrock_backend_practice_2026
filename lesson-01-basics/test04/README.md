@@ -77,7 +77,7 @@ go test -v ./lesson-01-basics/test04/hello/app
 
 ## 评分点
 
-| 测试 | 所在包 | 检查内容 |
+| 测试 | 所在包 | 检查内容 | \
 |---|---|---|
 | `TestHelperIsVisibleInsideThePackage` | `calc`（同包测试） | 小写的 `helper` 在包内可以直接调用 |
 | `TestAddDoubledGoesThroughHelper` | `calc`（同包测试） | 结果正确，**并且**源码里确实调用了 `helper` |
