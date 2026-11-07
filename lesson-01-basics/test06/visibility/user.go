@@ -10,7 +10,7 @@ type User struct {
 // NewUser 创建一个 User。
 // 因为 age 是小写字段，其他包无法自己填它，只能通过这个构造函数。
 func NewUser(name string, age int) *User {
-	return &User{name: name, age: age}
+	return &User{Name: name, age: age}
 }
 
 // Age 把小写字段 age 以只读的方式暴露给其他包。
